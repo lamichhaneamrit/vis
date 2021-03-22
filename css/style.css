@@ -9,8 +9,9 @@ html {
 
 body {
     background-color: #353b43;
-    font-family: "Anaheim", sans-serif;
-    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: medium;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -556,7 +557,7 @@ a:hover {
 ==================================================================*/
 
 .navigation {
-    background-color: #1d2024;
+    background-color: #CCFFEE;
     width: 100%;
     z-index: 99;
     margin-bottom: 0;
@@ -575,12 +576,12 @@ a:hover {
 }
 
 .navigation .navigation-menu li.active a {
-    color: #57cbcc;
+    color: #6699CC;
 }
 
 .navigation .navigation-menu li a {
     font-size: 16px;
-    color: #737f8a;
+    color: #6699CC;
 }
 
 .navigation .navigation-menu li a:hover,
@@ -590,12 +591,12 @@ a:hover {
 }
 
 .navbar-toggle {
-    border: 1px solid #fff;
+    border: 1px solid green;
     border-radius: 0;
 }
 
 .navbar-toggle span {
-    background: #fff;
+    background: blue;
 }
 
 .bg-1 {
@@ -768,7 +769,7 @@ a:hover {
 }
 
 .about .block .icon-box h3 {
-    color: #afbac4;
+    color: #57cbcc;
 }
 
 
@@ -777,15 +778,15 @@ a:hover {
 ==================================================================*/
 
 .about-2 .content-block {
-    padding: 40px;
+    padding: 25px;
 }
 
 .about-2 .content-block .media {
-    margin-top: 25px;
+    margin-top: 5px;
 }
 
 .about-2 .content-block .media .pull-left {
-    padding-right: 15px;
+    padding-right: 5px;
 }
 
 .about-2 .content-block .media i {
@@ -804,7 +805,7 @@ a:hover {
 ==================================================================*/
 
 .call-to-action {
-    background-attachment: fixed;
+    background-attachment: relative;
 }
 
 .call-to-action h2 {
@@ -812,9 +813,9 @@ a:hover {
     color: #444;
 }
 
-.call-to-action p {
-    font-size: 16px;
-    color: #666;
+.call-to-action h4 {
+    font-size: 20px;
+    color: black;
 }
 
 .call-to-action .btn-main {
@@ -828,13 +829,20 @@ a:hover {
 
 .call-to-action-2 {
     padding: 100px 0;
-    background-image: url("../images/call-to-action/call-to-action-bg.jpg");
     background-size: cover;
-    color: #fff;
+    color: #6b6d3c;
 }
 
 .call-to-action-2 h2 {
     line-height: 1.5;
+}
+
+#contact-us {
+    background-color: #9ce6cb;
+}
+
+#about {
+    background-color: #aceabd;
 }
 
 .call-to-action-2 p {
@@ -854,7 +862,7 @@ a:hover {
 }
 
 .contact-form .form-control {
-    background-color: transparent;
+    background-color: #6b6d3c;
     border: 1px solid rgba(236, 239, 241, 0.07);
     height: 45px;
 }
@@ -1190,7 +1198,7 @@ a:hover {
 ==================================================================*/
 
 .team-member {
-    background-color: #292F36;
+    background-color: #6b6d3c;
     margin-bottom: 10px;
 }
 
