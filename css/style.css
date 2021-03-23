@@ -3,16 +3,17 @@
 @import url("https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
 html {
-    background-color: #353b43;
+    background-color: #4e5d69;
     color: white;
 }
 
 body {
-    background-color: #353b43;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #4e5d69;
+    font-family: "Quattrocento Sans", "sans-serif";
     color: black;
     font-size: medium;
     -webkit-font-smoothing: antialiased;
+    font-weight: 700;
 }
 
 h1,
@@ -21,9 +22,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 400;
+    font-weight: 600;
     font-family: "Quattrocento Sans", sans-serif;
-    color: #afbac4;
+    color: black;
 }
 
 p {
@@ -302,7 +303,7 @@ a:hover {
 }
 
 .preloader {
-    background: #fff;
+    background: #97ABC1;
     height: 100%;
     left: 0;
     position: fixed;
@@ -323,7 +324,7 @@ a:hover {
 .sk-cube-grid .sk-cube {
     width: 33%;
     height: 33%;
-    background-color: #57cbcc;
+    background-color: #4e5d69;
     float: left;
     -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
     animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
@@ -772,6 +773,14 @@ a:hover {
     color: #57cbcc;
 }
 
+@media (max-width: 768px) {
+    #about,
+    #über,
+    .modal {
+        text-align: center;
+    }
+}
+
 
 /*=================================================================
   About us 2 section
@@ -837,12 +846,15 @@ a:hover {
     line-height: 1.5;
 }
 
-#contact-us {
-    background-color: #9ce6cb;
+#our-team,
+#about {
+    background-color: #4e5d69;
 }
 
-#about {
-    background-color: #aceabd;
+#über,
+#contact-us,
+#footer {
+    background-color: #97ABC1;
 }
 
 .call-to-action-2 p {
@@ -1907,6 +1919,12 @@ aside.widget {
 
 .tab-post-nav li {
     float: left;
+}
+
+.tab-post-nav li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
 }
 
 .tab-post-nav li.active a {
